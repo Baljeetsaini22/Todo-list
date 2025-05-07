@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo"><h2>Baljeet</h2></div>
+        <div class="menu-bar">
+          <a class="link" href="/" title="Home Page">Home</a>
+          <a class="link" href="/" title="About Page">About</a>
+          <a class="link" href="/" title="Contact Page">Contact us</a>
+        </div>
+      </nav>
+    </div>
+    <section class="hero-section container">
+      <div class="content">
+        <p>Enter Your Name & Role</p>
+        <div class="todo-list">
+          <input type="text" id="yourIdea" class="input-text" placeholder="Name  -  Role" required />
+        </div>
+        <div class="todo-btn">
+          <button id="clearData" class="btn-all">Delete All</button>
+          <button  id="addData" class="btn-all">Add task</button>
+        </div>
+        <div class="output"></div>
+      </div>
+    </section>
+  </body>
+  <script src="./todo.js"></script>
+</html>
